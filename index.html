@@ -18,7 +18,8 @@
   <body>
     <!-- header section starts  -->
     <header>
-      <a href="#" class="logo"><span>T</span>ravel</a>
+      <div id="menu-bar" class="fas fa-bars"></div>
+      <a href="#" class="logo"><span>T</span>ravel<span>G</span>o</a>
 
       <nav class="navbar">
         <a href="#home">Home</a>
@@ -43,7 +44,19 @@
     <!-- header section ends  -->
 
     <!-- login form container starts -->
-
+    <div class="login-form-container">
+      <i class="fas fa-times" id="form-close"></i>
+      <form action="">
+        <h3>LOGIN</h3>
+        <input type="email" class="box" placeholder="Enter Your Email" />
+        <input type="password" class="box" placeholder="Password" />
+        <input type="submit" value="Login" class="btn" />
+        <input type="checkbox" name="" id="remember" />
+        <label for="remember">Remember Me</label>
+        <p>Forgot Password? <a href="#">click here</a></p>
+        <p>Don't Have An Account? <a href="#">register now</a></p>
+      </form>
+    </div>
     <!-- login form container ends  -->
 
     <!-- custom js file  -->
