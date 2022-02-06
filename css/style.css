@@ -423,6 +423,40 @@ header #menu-bar {
   text-decoration: line-through;
 }
 
+.services .box-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.services .box-container .box {
+  flex: 1 1 25rem;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.services .box-container .box:hover {
+  box-shadow: var(--box-shadow);
+}
+
+.services .box-container .box i {
+  padding: 1rem;
+  font-size: 5rem;
+  color: var(--orange);
+}
+
+.services .box-container .box h3 {
+  font-size: 2.5rem;
+  color: var(--black);
+}
+
+.services .box-container .box p {
+  font-size: 1.5rem;
+  color: var(--light-black);
+  padding: 1rem 0;
+}
+
 /* media queries */
 
 @media (max-width: 1200px) {
