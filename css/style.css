@@ -505,6 +505,41 @@ header #menu-bar {
   color: var(--white);
   padding: 0.5rem 0;
 }
+
+.reviews .review-slider {
+  padding-bottom: 2rem;
+}
+.reviews .box {
+  padding: 2rem;
+  text-align: center;
+  box-shadow: var(--box-shadow);
+  border-radius: 0.5rem;
+}
+
+.reviews .box img {
+  height: 13rem;
+  width: 13rem;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.reviews .box h3 {
+  color: var(--black);
+  font-size: 2.5rem;
+}
+
+.reviews .box p {
+  color: var(--light-black);
+  font-size: 1.5rem;
+  padding: 1rem 0;
+}
+
+.reviews .box .stars i {
+  color: var(--orange);
+  font-size: 1.7rem;
+}
+
 /* media queries */
 
 @media (max-width: 1200px) {
