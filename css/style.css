@@ -508,12 +508,14 @@ header #menu-bar {
 
 .reviews .review-slider {
   padding-bottom: 2rem;
+  overflow: hidden;
 }
 .reviews .box {
   padding: 2rem;
   text-align: center;
   box-shadow: var(--box-shadow);
   border-radius: 0.5rem;
+  overflow: hidden;
 }
 
 .reviews .box img {
@@ -587,6 +589,7 @@ header #menu-bar {
 
 .brand-container {
   text-align: center;
+  overflow: hidden;
 }
 
 .footer {
